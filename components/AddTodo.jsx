@@ -71,12 +71,12 @@ const AddTodo = () => {
         <Box w="40%" margin={"0 auto"} display="block" mt={5}>
             <Stack direction="column">
                 <Input 
-                    placeholder="Title"
+                    placeholder="Title of Todo"
                     value={title}
                     onChange={ (e) => setTitle( e.target.value ) }
                 />
                 <Textarea
-                    placeholder="Description"
+                    placeholder="Description of Todo"
                     value={description}
                     onChange={ (e) => setDescription(e.target.value) }
                 />
