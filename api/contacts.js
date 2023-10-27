@@ -14,6 +14,8 @@ const addContact = async ({ userId, name, email, phone, Relationship}) => {
       email: email,
       phone: phone,
       Relationship: Relationship,
+      description: description,
+        status: status,
       createdAt: new Date().getTime()
     });
   } catch (err) {
