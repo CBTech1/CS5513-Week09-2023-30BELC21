@@ -8,7 +8,7 @@ export default function AddToDo() {
   return (
     <Container maxW="7xl">
       <Auth />
-      <Link style={{ border: '2px solid white' }} href="https://cs5513-week09-2023-30belc21.srjcethanwilde.repl.co/">Home</Link>
+      
       <AddTodo />
     </Container>
   )
