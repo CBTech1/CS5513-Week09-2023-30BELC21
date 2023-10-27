@@ -26,25 +26,7 @@ export default function Home() {
               <AddTodo />
             </Box>
           </TabPanel>
-          <TabPanel>
-            <Box>
-              <p>Create an Event</p>
-            </Box>
-          </TabPanel>
-          <TabPanel>
-            <Box>
-              <p>ContactList</p>
-              <AddContacts />
-            </Box>
-          </TabPanel>
-          <TabPanel>
-            <Box>
-              <p>Here is TodoList EventList ContactList</p>
-              <TodoList />
-              <EventsList />
-              <ContactList />
-            </Box>
-          </TabPanel>
+         
         </TabPanels>
       </Tabs>
     </Container>
