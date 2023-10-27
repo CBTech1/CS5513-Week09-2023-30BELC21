@@ -1,6 +1,6 @@
 // import what we need for home
 import { Container,Link } from "@chakra-ui/react";
-import { ExternalLinkIcon } from '@chakra-ui/icons'
+//import { ExternalLinkIcon } from '@chakra-ui/icons'
 import Auth from "../components/Auth";
 import AddTodo from "../components/AddTodo";
 
