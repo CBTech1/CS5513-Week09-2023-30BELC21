@@ -6,7 +6,7 @@ import {
   doc,
   deleteDoc
 } from "firebase/firestore";
-const addContact = async ({ userId, name, email, phone, Relationship, description, status }) => {
+const addContact = async ({ userId, name, email, phone, Relationship}) => {
   try {
     await addDoc(collection(db, "contacts"), {
       user: userId,
@@ -14,8 +14,6 @@ const addContact = async ({ userId, name, email, phone, Relationship, descriptio
       email: email,
       phone: phone,
       Relationship: Relationship,
-      description: description,
-        status: status,
       createdAt: new Date().getTime()
     });
   } catch (err) {

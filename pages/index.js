@@ -10,7 +10,7 @@ import ContactList from '../components/ContactList';
 export default function Home() {
   return (
     <Container maxW='7xl'>
-      <div style = {{left: "-40px"}}>
+      <div style={{ left: '300px' }}>
       <Auth />
       <br></br>
         </div>
@@ -42,10 +42,10 @@ export default function Home() {
           </TabPanel>
           <TabPanel>
             <Box>
-              <p>Here is TodoList and EventList</p>
+              <p>Below will be TodoList and EventList</p>
               <TodoList />
               <EventsList />
-              <p>Here is  ContactList</p>
+              <p>Below will be ContactList</p>
               <ContactList />
             </Box>
           </TabPanel>

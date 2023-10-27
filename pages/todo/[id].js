@@ -28,7 +28,7 @@ const TodoItem = ({ itemData }) => {
   // handle update of firestore document
   const sendData = async () => {
     console.log("sending! ", itemData);
-    const docRef = doc(db, 'todo', itemData.id);
+    const docRef = doc(db, 'contacts', 'todo', itemData.id);
     updateDoc(
       docRef, 
       {
