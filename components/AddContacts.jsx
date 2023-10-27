@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Input, Button, Textarea, Stack, useToast } from "@chakra-ui/react";
+import { Box, Input, Button, Textarea, Stack, Select, useToast } from "@chakra-ui/react";
 import useAuth from "../hooks/useAuth";
 import { addContact } from "../api/contacts";
 const AddContact = () => {

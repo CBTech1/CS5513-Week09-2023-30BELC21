@@ -48,12 +48,12 @@ const AddTodo2 = () => {
         <Box w="40%" margin={"0 auto"} display="block" mt={5}>
             <Stack direction="column">
                 <Input
-                    placeholder="Title"
+                    placeholder="Title of event"
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
                 />
                 <Textarea
-                    placeholder="Description"
+                    placeholder="Description of event"
                     value={description}
                     onChange={(e) => setDescription(e.target.value)}
                 />
@@ -80,7 +80,7 @@ const AddTodo2 = () => {
                     colorScheme="teal"
                     variant="solid"
                 >
-                    Add Todo
+                    Add Event
                 </Button>
             </Stack>
         </Box>

@@ -29,8 +29,6 @@ export default function Home() {
           <TabPanel>
             <Box>
               <p>Create an Event</p>
-              <AddEvents />
-              <EventsList />
             </Box>
           </TabPanel>
           <TabPanel>
