@@ -14,7 +14,7 @@ import useAuth from "../hooks/useAuth";
 const AddContacts = () => {
   const { toggleColorMode, colorMode } = useColorMode();
   const { isLoggedIn, user } = useAuth() || {};
-  const toast = useToast();
+
   const handleAuth = async () => {
     const provider = new GoogleAuthProvider();
     signInWithPopup(auth, provider)

@@ -42,22 +42,22 @@ const AddContact = () => {
   return (
     <Box w="40%" margin={"0 auto"} display="block" mt={5}>
       <Stack direction="column">
-        <Input
+        <Textarea
           placeholder="Name"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
-        <Input
+        <Textarea
           placeholder="Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-        <Input
+        <Textarea
           placeholder="Phone"
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
         />
-        <Input
+        <Textarea
           placeholder="Relationship"
           value={Relationship}
           onChange={(e) => setRelationship(e.target.value)}
