@@ -10,7 +10,10 @@ import ContactList from '../components/ContactList';
 export default function Home() {
   return (
     <Container maxW='7xl'>
+      <div style = {{left: "-40px"}}>
       <Auth />
+      <br></br>
+        </div>
       <Tabs isFitted variant='enclosed'>
         <TabList mb='1em'>
           <Tab>Create Todos</Tab>
@@ -39,9 +42,10 @@ export default function Home() {
           </TabPanel>
           <TabPanel>
             <Box>
-              <p>Here is TodoList EventList ContactList</p>
+              <p>Here is TodoList and EventList</p>
               <TodoList />
               <EventsList />
+              <p>Here is  ContactList</p>
               <ContactList />
             </Box>
           </TabPanel>
